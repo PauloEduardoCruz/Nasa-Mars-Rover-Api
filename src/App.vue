@@ -44,7 +44,7 @@
       this.aleat();
       //axios.get("qqq")
       
-      axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1500&api_key=DEMO_KEY").then(res => {
+      axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1500&api_key=CO6UsrsopOI0K5peyjztdXiIAh4iz9j02df0UiU6").then(res => {
           this.marsRover = res.data.photos
           for(let i in this.numeros){
             this.filterMarsRover.push(this.marsRover[this.numeros[i]])
